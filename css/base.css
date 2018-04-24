@@ -1,0 +1,231 @@
+﻿/*calc 加减号要有空格*/
+body, html {
+    height: calc(100vh);
+    color: #777;
+    overflow: hidden;
+    background: #F3F3F3;
+}
+
+.content {
+    height: calc(100vh);
+    overflow-y: auto
+}
+
+.content-top-bottom {
+    height: calc(100vh - 100px);
+    overflow-y: auto
+}
+
+.content-top {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+
+/*基本样式*/
+a, a:visited, a:link {
+    text-decoration: none;
+    color: #777;
+}
+
+/*超出显示省略号*/
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*图标文字*/
+.fa {
+    /*padding-right: 5px;*/
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*覆盖bootstrap的基本样式*/
+.input-group-addon,
+.bootstrap-dialog.type-primary .modal-header,
+.btn-primary, .btn-primary:hover,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    background-color: #5AC994 !important;
+    border-color: #5AC994 !important;
+}
+
+.text-primary {
+    color: #5AC994;
+}
+
+.input-group-addon {
+    color: #fff !important;
+}
+
+.btn {
+    outline: none;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fff !important;
+}
+
+/*空心按钮*/
+.btn-border-none {
+    border-color: #5AC994;
+    color: #5AC994;
+}
+
+/*微章小圆点*/
+.bg-primary.badge {
+    background-color: #5AC994;
+}
+
+.bg-danger.badge {
+    background-color: #a94442;
+}
+
+/*内容区域*/
+.p-space {
+    background-color: #f3f3f3;
+    height: 5px;
+}
+
+.row {
+    background-color: #fff;
+}
+
+/*媒体列表*/
+.media {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.media:first-child {
+    margin-top: 15px;
+}
+
+.mediaNone {
+    border-bottom: 0;
+}
+
+/*标题栏*/
+.navbar-top-box {
+    background-color: #5AC994;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.navbar-top-box a:visited, .navbar-top-box a:active, .navbar-top-box a:link {
+    color: #fff !important;
+}
+
+.navbar-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*标题分行显示*/
+.navbar-top-box-break {
+    /*font-size: 10px;*/
+    line-height: 16px;
+    height: 100%;
+    word-wrap: break-word;
+    text-overflow: initial;
+    white-space: initial;
+    padding: 9px 10px 9px 0;
+}
+
+/*底部工具栏*/
+.navbar-bottom-box {
+    background-color: #fff;
+    height: 50px;
+    border-top: 1px solid #f3f3f3;
+    padding-top: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*.navbar-bottom-box .navbar-font {*/
+/*font-size: 14px;*/
+/*}*/
+
+.navbar-bottom-box .fa {
+    font-size: 16px;
+}
+
+.navbar-bottom-box .navbar-brand {
+    padding: 5px 15px;
+}
+
+.navbar-bottom-box .active {
+    color: #5AC994 !important;
+}
+
+/*进度条*/
+.circle-box {
+    width: 130px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle-box canvas {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+/*加载框*/
+.loadingDiv {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+}
+
+.loadingDiv p {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    color: #9a9a9a;
+    left: 50%;
+    top: 40%;
+    background: url(../images/loading.gif?v=0.1) no-repeat;
+    padding-left: 40px;
+    background-position-x: 10px;
+    margin-left: -51px;
+    background-size: 20%;
+    /*border: 1px solid #ccc;*/
+    border-radius: 3px;
+    background-position-y: 5px;
+}
+
+/*上下滚动*/
+/*.content-iScroll {*/
+/*position: absolute;*/
+/*overflow: hidden;*/
+/*width: 100%;*/
+/*transform: translate3d(0,0,0);*/
+/*-webkit-transform: translate3d(0,0,0);*/
+/*-moz-transform: translate3d(0,0,0);*/
+/*}*/
+/*.iScroll-box{*/
+/*position: absolute;*/
+/*transform: translate3d(0,0,0);*/
+/*-webkit-transform: translate3d(0,0,0);*/
+/*-moz-transform: translate3d(0,0,0);*/
+/*}*/

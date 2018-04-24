@@ -1,0 +1,9 @@
+.switch { width: 65px; }
+.switch_fath { position: relative; border-radius: 20px; }
+.switch_on { float: left; }
+.switch_off { float: right; }
+.switch_btn { height: 30px; width: 30px; border: none; color: #fff; line-height: 30px; font-size: 14px; text-align: center; z-index: 1; }
+.switch_move { z-index: 100; width: 30px; border-radius: 20px; height: 30px; position: absolute; cursor: pointer; border: 1px solid #828282; background-color: #f1eff0; box-shadow: 1px 2px 2px 1px #fff inset,0 0 5px 1px #999; }
+.on .switch_move { left: 35px; }
+.on.switch_fath { background-color: #5AC994; height: 30px; }
+.off.switch_fath { background-color: #828282; height: 30px; }

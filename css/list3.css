@@ -1,0 +1,10 @@
+.radio-padding, .checkbox-padding { margin-top: 0; margin-bottom: 0; }
+/*列表切换*/
+.tab-active { color: #f76755; border-bottom: 2px solid #f76755; }
+
+/*上下滚动*/
+.box li { list-style: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.box { margin-bottom: 20px; height: 30px; border: 1px solid #ddd; overflow: hidden; }
+
+.box ul li { line-height: 30px; height: 30px; }

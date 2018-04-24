@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>做题页</title>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="vendor/bootstrap-dialog/bootstrap-dialog.css" rel="stylesheet"/>
+    <link href="vendor/font-awesome/font-awesome.min.css" rel="stylesheet"/>
+    <link href="vendor/swiper/swiper.min.css" rel="stylesheet"/>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/doexam.css" rel="stylesheet"/>
+    <link href="vendor/router/animations.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="pt-page pt-page-current" id="testbox">
+    <div class="container-fluid">
+        <div class="row navbar-top-box">
+            <div class="text-right col-xs-1 navbar-padding">
+                <a class="text-overflow" href="JavaScript:;">
+                    <i class="fa fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="text-overflow navbar-padding col-xs-9">
+                第一次考试
+            </div>
+            <div class="text-overflow col-xs-2 navbar-padding model">
+                <a class="text-overflow" href="JavaScript:;">
+                    <i class="fa fa-bars"></i><span>模式</span>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12  content-top-bottom">
+                <div class="swiper-container swiper-container-horizontal">
+                    <div class="swiper-wrapper">
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <!--切换试题遮罩-->
+                <div id='test-masks'></div>
+            </div>
+        </div>
+        <!-- 工具栏-->
+        <div class="row">
+            <div class="navbar-bottom-box">
+                <div class="text-overflow text-center col-xs-4">
+                    <i class="fa fa-clock-o navbarFont"></i>
+                    <div class="navbar-font examTime">00:00:00</div>
+                </div>
+                <div class="text-overflow text-center col-xs-4 init-show"
+                     data-show="#cardbox">
+                    <i class="fa fa-calculator navbarFont"></i>
+                    <div class="navbar-font">答题卡</div>
+                </div>
+                <div class="text-overflow text-center col-xs-4 ">
+                    <i class="fa fa-upload navbarFont"></i>
+                    <div class="navbar-font">提交试卷</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 答题卡-->
+<div class="pt-page" id="cardbox">
+    <div class="container-fluid ">
+        <div class="row navbar-top-box">
+            <div class="text-center col-xs-1 navbar-padding  init-show back" data-show="#testbox">
+                <a class="text-overflow" href="JavaScript:;">
+                    <i class="fa fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="text-overflow navbar-padding col-xs-9">
+                答题卡
+            </div>
+        </div>
+
+
+        <div class="row">
+            <p></p>
+            <div class="col-sm-12 col-xs-12 testCardbox content-top">
+                <div class="cardTable"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="vendor/public/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/bootstrap-dialog/bootstrap-dialog.js"></script>
+<script src="vendor/bootstrap-dialog/bootstrapDialog.js"></script>
+<script src="vendor/public/yingSoftPrg.js"></script>
+<script src="vendor/swiper/swiper.min.js"></script>
+<script src="js/doexam.js"></script>
+<script src="vendor/router/modernizr.custom.js"></script>
+<script src="vendor/router/router.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    background: #fff;
+}
+ 
+
+.margin-bottom-sm {
+    margin-bottom: 15px !important;
+}
+
+.fa-login {
+    float: left;
+    width: 15%;
+    border-bottom: 1px solid #808080;
+    height: 35px;
+    padding-top: 10px;
+    color: #808080;
+}
+
+.fa-left {
+    float: left;
+    margin-top: 3px;
+}
+
+.input-login {
+    height: 35px;
+    border: 0;
+    border-bottom: 1px solid #808080;
+    float: left;
+    width: 85%;
+    text-align: center;
+    text-indent: -15%;
+    color: #808080;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+}
+
+.input-box {
+    height: 10%;
+    /*padding: 0 15px;*/
+    min-height: 60px;
+
+}
+
+.footer-login-text {
+    font-size: 12px;
+}
+
+.login-more, .register-more {
+    position: fixed;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    bottom: 0;
+}

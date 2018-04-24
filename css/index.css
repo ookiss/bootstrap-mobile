@@ -1,0 +1,36 @@
+
+a > img {
+    width: 50px;
+    height: 50px;
+}
+
+#school {
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 40px;
+    height: 40px;
+    text-align: left;
+}
+
+#soft > a, #simulate > a, #ErrorTests > a, #MyFav > a, #MyNote > a, #statis > a, #join > a, #practice > a, #examlog > a, #video > a, #courswear > a, #videoExam > a {
+    padding: 15px 0;
+    display: block;
+}
+
+
+
+#soft {
+    border-right: 1px solid #f3f3f3;
+}
+
+#MyFav {
+    border-left: 2px solid #f3f3f3;
+}
+
+#MyNote {
+    border-top: 2px solid #f3f3f3;
+}
+
+#statis {
+    border-left: 2px solid #f3f3f3;
+    border-top: 2px solid #f3f3f3;
+}

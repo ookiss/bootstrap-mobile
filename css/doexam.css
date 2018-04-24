@@ -1,0 +1,62 @@
+.testTitle, .testCard, .mainTitle {
+    border-radius: 2px;
+    padding: 5px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.testTitle {
+    margin-top: 0;
+}
+
+.mainTitle {
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.testCard {
+    text-align: center;
+    margin: 0px;
+}
+
+.testItem {
+    cursor: pointer;
+    padding-left: 5px;
+    clear: both;
+    line-height: 30px;
+}
+
+.testItem .selectItem {
+    word-break: break-all;
+    word-wrap: break-word;
+    padding-left: 25px;
+}
+
+.fabox {
+    float: left;
+}
+ 
+
+.table {
+    table-layout: fixed;
+}
+
+table, th, td {
+    text-align: center;
+    cursor: pointer;
+}
+
+#test-masks {
+    opacity: 0.01;
+    background: #fff;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9998;
+}
